@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Strange Works Studio</title>
+<meta name="description" content="Policies and contact information for games published by Strange Works Studio.">
+<style>
+  :root {
+    color-scheme: dark light;
+    --ground: #070e18;
+    --rim: #365c75;
+    --ink: #edf4ff;
+    --muted: #a6c2d8;
+    --gold: #f2c36b;
+    --blue: #a6d8f5;
+  }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --ground: #f7f9fc; --rim: #c3d2e0;
+      --ink: #15202b; --muted: #47616f; --gold: #8a6512; --blue: #1b5f87;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 72px 16px 96px;
+    background: var(--ground); color: var(--ink);
+    font: 17px/1.65 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 56ch; margin: 0 auto; }
+  h1 { font-size: clamp(28px, 6vw, 38px); line-height: 1.1; margin: 0 0 14px; letter-spacing: -0.01em; }
+  p { color: var(--muted); }
+  h2 { font-size: 20px; color: var(--gold); margin: 44px 0 10px; }
+  ul { list-style: none; padding: 0; margin: 0; }
+  li { border-top: 1px solid var(--rim); }
+  li a { display: block; padding: 16px 0; color: var(--blue); text-decoration: none; }
+  li a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  li a span { display: block; color: var(--muted); font-size: 15px; margin-top: 2px; }
+  a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 2px; }
+  ::selection { background: var(--gold); color: var(--ground); }
+  footer { margin-top: 56px; padding-top: 22px; border-top: 1px solid var(--rim); color: var(--muted); font-size: 15px; }
+  footer a { color: var(--blue); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Strange Works Studio</h1>
+  <p>Policies and contact information for our published games.</p>
+
+  <h2>Breaker</h2>
+  <ul>
+    <li><a href="privacy.html">Privacy policy<span>How Breaker handles your data</span></a></li>
+  </ul>
+
+  <footer>
+    <p>Contact: <a href="mailto:ashaver1014@gmail.com">ashaver1014@gmail.com</a></p>
+  </footer>
+</main>
+</body>
+</html>
