@@ -7,6 +7,7 @@ URL and the game repositories are private.
 | Page | URL |
 | --- | --- |
 | Breaker privacy policy | https://ashaver12.github.io/strangeworks-legal/privacy.html |
+| Rogue Chess privacy policy | https://ashaver12.github.io/strangeworks-legal/rogue-chess-privacy.html |
 
 ## Editing
 
@@ -20,3 +21,6 @@ Google Play expects the policy to describe the app as it actually ships, so the
 policy is updated *before* the release that changes behaviour, not after.
 
 Pushing to `master` republishes the site within a minute or two.
+
+`rogue-chess-privacy.html` is the published Rogue Chess policy. Its working draft and submission notes
+live at `store/PRIVACY_DRAFT.md` in the Rogue Chess repository. Change both, together.
