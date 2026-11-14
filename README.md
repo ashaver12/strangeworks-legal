@@ -8,6 +8,10 @@ URL and the game repositories are private.
 | --- | --- |
 | Breaker privacy policy | https://ashaver12.github.io/strangeworks-legal/privacy.html |
 | Rogue Chess privacy policy | https://ashaver12.github.io/strangeworks-legal/rogue-chess-privacy.html |
+| Forge privacy policy | https://ashaver12.github.io/strangeworks-legal/forge-privacy.html |
+| Forge terms of service | https://ashaver12.github.io/strangeworks-legal/forge-terms.html |
+| Forge account deletion | https://ashaver12.github.io/strangeworks-legal/forge-delete-account.html |
+| Forge support | https://ashaver12.github.io/strangeworks-legal/forge-support.html |
 
 ## Editing
 
@@ -24,3 +28,7 @@ Pushing to `master` republishes the site within a minute or two.
 
 `rogue-chess-privacy.html` is the published Rogue Chess policy. Its working draft and submission notes
 live at `store/PRIVACY_DRAFT.md` in the Rogue Chess repository. Change both, together.
+
+The four `forge-*.html` pages are GENERATED. Their text lives in the Forge repository at
+`src/constants/legalContent.json` (the app shows the same text in-app); `node scripts/build-legal-pages.mjs`
+writes them to `site/` there, and they are copied here. Do not edit them in this repository.
